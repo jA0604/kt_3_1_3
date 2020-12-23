@@ -1,0 +1,6 @@
+package model
+
+enum class Reason {
+    SPAM, CHILD_PORNO, EXTREMISM, VIOLENCE, DRUG_PROMOTION, ADULT, INSULT, SUICIDE
+
+}

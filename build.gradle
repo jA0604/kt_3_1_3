@@ -1,0 +1,19 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.20'
+    id 'jacoco'
+}
+
+group 'ru.netology'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'junit:junit:4.12'
+    implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+    // https://mvnrepository.com/artifact/junit/junit
+    testImplementation "junit:junit:4.12"
+}
